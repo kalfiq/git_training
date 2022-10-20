@@ -1,2 +1,2 @@
 # git_training
-This repo is used to train my personal competency with git practices
+This repo is used to train my personal competency with git practices.

@@ -1,7 +1,7 @@
-from addition import add
 import subtraction
 import multiplication
 import division
+import addition
 
 
 def main():
@@ -23,16 +23,16 @@ def main():
 
     result = 0
     if (operation == 1):
-        result = add(num1, num2)
+        result = addition.add(num1, num2)
 
     elif (operation == 2):
-        result = subtract(num1, num2)
+        result = subtraction.subtract(num1, num2)
 
     elif (operation == 3):
-        result = multiply(num1, num2)
+        result = multiplcation.multiply(num1, num2)
 
     elif (operation == 4):
-        result = divide(num1, num2)
+        result = division.divide(num1, num2)
 
     print("The result is: ", result)
 

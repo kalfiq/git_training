@@ -9,6 +9,7 @@ def main():
 
     num1 = int(input("Please input the first number: "))
     num2 = int(input("Please input the second number: "))
+    print("Line 1")
 
     print("")
     print("What operation would you like to perform?")

@@ -21,6 +21,8 @@ def main():
     """
     ))
 
+    print("Added another line")
+
     result = 0
     if (operation == 1):
         result = addition.add(num1, num2)
